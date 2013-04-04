@@ -1,0 +1,27 @@
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+
+stage {
+    font-family: "Open Sans";
+    font-size: 9pt;
+}
+
+#panel {
+    color: #3d3d3d;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 8pt;
+    height: 22px;
+    background: rgba(243, 243, 243, 0.8);
+    box-shadow: 0px 1px 5px rgba(85, 85, 85, 0.7);
+}
+
+.panel-button {
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 8pt;
+    color: #3d3d3d;
+}
+.panel-button:hover {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background: #f3f3f3;
+}
